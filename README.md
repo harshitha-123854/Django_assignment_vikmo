@@ -1,36 +1,24 @@
 Vikmo Sales Order and Inventory System
 
-This project is built using Django and Django REST Framework.
-It manages products, inventory, dealers, and sales orders.
+This is a web application built using Django that demonstrates backend development, database integration, and REST API handling.
 
-Features
-- Product management
-- Inventory tracking
-- Dealer management
-- Order management
-- REST APIs
-- Django admin panel
+🚀 Features
 
-Technologies
-- Python
-- Django
-- Django REST Framework
-- SQLite
+User data management (Create, Read, Update, Delete)
+Backend logic using Django framework
+Database integration (SQLite/MySQL)
+REST API implementation
 
- Run the Project
+🛠️ Tech Stack
 
-Install dependencies:
-pip install django
-pip install djangorestframework
+Python
+Django
+SQLite / MySQL
+HTML, CSS
 
-Run migrations:
-python manage.py migrate
+▶️ How to Run
 
-Start the server:
-python manage.py runserver
-
-API Endpoints
-- /api/products/
-- /api/inventory/
-- /api/dealers/
-- /api/orders/
+Clone the repository
+Install dependencies: pip install -r requirements.txt
+Run server: python manage.py runserver
+Open in browser: http://127.0.0.1:8000/
